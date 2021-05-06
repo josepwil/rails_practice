@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # roots to pages_controller hello method (no need to specify '_controller' it is expected by rails)
+  root 'pages#home'
 end
